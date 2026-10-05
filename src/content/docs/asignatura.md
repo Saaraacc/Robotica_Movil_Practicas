@@ -17,6 +17,8 @@ Cada práctica tiene su propia memoria, con apartados como **resumen**, **desarr
 
 Durante el desarrollo de cada práctica dejaremos varios vídeos o fotos del progreso, de las diferentes pruebas realizadas y de los problemas que vayan surgiendo, así como su resolución.
 
+*No se incluirán los códigos de las prácticas para evitar plagios no deseados*
+
 ## Herramientas utilizadas
 
 | Herramienta | Uso |
