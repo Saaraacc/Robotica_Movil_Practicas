@@ -15,7 +15,7 @@ Este blog es el cuaderno de prácticas de la asignatura. En él contaremos cada 
 
 Cada práctica tiene su propia memoria, con apartados como **resumen**, **desarrollo**, **resultados** y **conclusiones**, a los que se puede acceder desde el menú lateral.
 
-Durante el desarrollo de cada práctica dejaremos varios vídeos o fotos del progreso, de las diferentes pruebas realizadas y de los problemas que vayan surgiendo así como su resolución.
+Durante el desarrollo de cada práctica dejaremos varios vídeos o fotos del progreso, de las diferentes pruebas realizadas y de los problemas que vayan surgiendo, así como su resolución.
 
 ## Herramientas utilizadas
 
