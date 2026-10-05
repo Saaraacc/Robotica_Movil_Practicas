@@ -1,0 +1,40 @@
+---
+title: Robótica Móvil
+description: Memorias de las prácticas de la asignatura de Robótica Móvil.
+template: splash
+hero:
+  tagline: Memorias de prácticas · Tu nombre · Universidad · Curso 2026/27
+  image:
+    file: ../../assets/hero.svg
+  actions:
+    - text: Empezar por la práctica 1
+      link: practicas/practica-1/resumen/
+      icon: right-arrow
+    - text: Sobre la asignatura
+      link: asignatura/
+      variant: minimal
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+{/* EDITA: una tarjeta por práctica. Cambia título y descripción. */}
+
+## Prácticas
+
+<CardGrid>
+  <LinkCard
+    title="Práctica 1 · Aspirador básico"
+    description="Robot aspirador autónomo en Python sobre Unibotics (Basic Vacuum Cleaner)."
+    href="practicas/practica-1/resumen/"
+  />
+  <LinkCard
+    title="Práctica 2"
+    description="Descripción en una línea."
+    href="practicas/practica-2/resumen/"
+  />
+  <LinkCard
+    title="Práctica 3"
+    description="Descripción en una línea."
+    href="practicas/practica-3/resumen/"
+  />
+</CardGrid>

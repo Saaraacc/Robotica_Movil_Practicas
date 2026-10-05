@@ -1,0 +1,121 @@
+/* ============================================================
+   Tema "Mapa de ocupación": beige, cacao y rosa empolvado.
+   Todo lo que puedes querer cambiar está en las variables.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --sl-font: 'Instrument Sans', system-ui, sans-serif;
+  --sl-font-system-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-titulos: 'Fraunces', Georgia, serif;
+  --sl-content-width: 46rem;
+  --radio: 14px;
+}
+
+/* ---------- Modo claro: papel beige ---------- */
+:root[data-theme='light'] {
+  --sl-color-white: #3A2518;
+  --sl-color-gray-1: #4A2F20;
+  --sl-color-gray-2: #5E4130;
+  --sl-color-gray-3: #7B6250;
+  --sl-color-gray-4: #9C8573;
+  --sl-color-gray-5: #D9C9B3;
+  --sl-color-gray-6: #EADFCD;
+  --sl-color-gray-7: #F3EBDC;
+  --sl-color-black: #F8F2E7;
+  --sl-color-accent-low: #EBD9C8;
+  --sl-color-accent: #7B4B34;
+  --sl-color-accent-high: #5A3322;
+  --sl-color-bg-nav: #F3EBDC;
+  --sl-color-bg-sidebar: #F3EBDC;
+  --sl-color-hairline: #D9C9B3;
+}
+
+/* ---------- Modo oscuro: café ---------- */
+:root[data-theme='dark'] {
+  --sl-color-white: #F6ECDD;
+  --sl-color-gray-1: #E8DAC6;
+  --sl-color-gray-2: #CDB9A0;
+  --sl-color-gray-3: #A58E78;
+  --sl-color-gray-4: #7C6554;
+  --sl-color-gray-5: #4D3B2F;
+  --sl-color-gray-6: #382A21;
+  --sl-color-gray-7: #2B2019;
+  --sl-color-black: #201710;
+  --sl-color-accent-low: #4A3224;
+  --sl-color-accent: #D4A98B;
+  --sl-color-accent-high: #ECCFB6;
+  --sl-color-bg-nav: #2B2019;
+  --sl-color-bg-sidebar: #2B2019;
+  --sl-color-hairline: #4D3B2F;
+}
+
+/* ---------- Fondo: cuadrícula de mapa de ocupación ---------- */
+body {
+  background-image:
+    linear-gradient(var(--sl-color-hairline) 1px, transparent 1px),
+    linear-gradient(90deg, var(--sl-color-hairline) 1px, transparent 1px);
+  background-size: 36px 36px;
+  background-position: -1px -1px;
+  background-attachment: fixed;
+}
+:root[data-theme='light'] body { background-color: #F8F2E7; }
+:root[data-theme='dark'] body { background-color: #201710; }
+.content-panel, main { background: transparent; }
+
+/* ---------- Tipografía ---------- */
+h1, h2, h3, h4,
+.hero h1, .site-title {
+  font-family: var(--font-titulos);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.sl-markdown-content { line-height: 1.75; }
+h1#_top { font-size: var(--sl-text-4xl); }
+.sl-markdown-content h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+/* ---------- Detalles ---------- */
+.sl-markdown-content :not(pre) > code {
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-accent-high);
+  border-radius: 6px;
+  padding: 0.1em 0.4em;
+}
+.expressive-code { --ec-brdRad: var(--radio); }
+.sl-markdown-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+.sl-markdown-content th { background: var(--sl-color-accent-low); }
+.sl-markdown-content blockquote {
+  border-inline-start: 3px solid #C9A596;
+  background: var(--sl-color-gray-7);
+  border-radius: 0 var(--radio) var(--radio) 0;
+  padding: 0.6rem 1rem;
+}
+.sl-markdown-content img { border-radius: var(--radio); }
+.card { border-radius: var(--radio); background: var(--sl-color-gray-7); }
+.sl-link-button.primary { border-radius: 999px; color: #FAF5EC; }
+.sl-link-button.secondary { border-radius: 999px; }
+
+/* Portada: el robot aparece con un único movimiento suave */
+.hero img { border-radius: 22px; box-shadow: 0 18px 40px -22px #4A2F20; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero img { animation: aparece 0.9s ease-out both; }
+  @keyframes aparece { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: none; } }
+}
+
+/* Tarjetas de prácticas en la portada */
+.sl-link-card {
+  border-radius: var(--radio);
+  background: var(--sl-color-gray-7);
+  border-color: var(--sl-color-hairline);
+}
+.sl-link-card:hover { border-color: var(--sl-color-accent); }
+.sl-link-card .title { font-family: var(--font-titulos); }
