@@ -9,22 +9,21 @@ sidebar:
 
 ## Objetivo
 
-Explica en 2-3 líneas qué se pide y por qué es interesante.
+El objetivo de esta práctica es programar el comportamiento de una aspiradora de gama baja para que limpie una casa moviéndose de forma pseudoaleatoria. Al tratarse de un robot sencillo, no sabrá en qué punto de la casa está, por lo que no podrá planificar ninguna ruta. 
+
+Para conseguir este resultado, se debe diseñar un autómata de estados que funcione dentro de un bucle infinito, dicho resultado se podrá comprobar gracias al porcentaje de superficie recorrido en el mapa de la casa (mundo proporcionado por Unibotics).
 
 ## Enunciado
 
-Robot aspirador que debe recorrer y limpiar una vivienda de forma autónoma. Pega aquí el enunciado con tus palabras y enlaza el ejercicio original:
+En este apartado podemos comprobar el enunciado de la práctica a realizar:
+
 [Basic Vacuum Cleaner · Robotics Academy](https://jderobot.github.io/RoboticsAcademy/exercises/MobileRobots/vacuum_cleaner).
 
-:::note[Entorno]
-Python sobre Unibotics. Indica aquí cualquier detalle del entorno que sea relevante.
-:::
 
 ## Ficha de la práctica
 
 | | |
 | --- | --- |
-| Práctica | 1 · Aspirador básico |
-| Fecha de entrega | dd/mm/aaaa |
+| Práctica | P1 · Basic Vacuum Cleaner |
+| Fecha de entrega | 06/10/2026 |
 | Lenguaje | Python |
-| Repositorio | [Ver código](https://github.com/TU-USUARIO/TU-REPOSITORIO) |
