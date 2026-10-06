@@ -25,7 +25,7 @@ Algunas decisiones importantes fueron:
 
 * Giros aleatorios, para ello fijé una velocidad angular y sorteba la duración del giro. Elegí esta manera por ser un modelo sencillo y porque realmente no importa hacia donde mire exactamente el robot, solo que no salga en la misma dirección siempre.
 
-(foto FSM)
+<img width="654" height="552" alt="image" src="https://github.com/user-attachments/assets/ea0adff6-14f4-4254-83ec-0598e5a31614" />
 
 Figura 1. Recorrido de la aspiradora en un ciclo completo. Cuando se acerca a un obstáculo retrocede, gira y después sigue recto o hace una espiral, según el azar.
 
