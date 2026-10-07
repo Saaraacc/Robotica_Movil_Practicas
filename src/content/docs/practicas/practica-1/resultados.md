@@ -19,6 +19,6 @@ En el vídeo se ve el autómata en marcha. Además en la consola aparece un mens
 Como los giros y las espirales dependen del azar, el resultado cambia de una ejecución a otra y el 71,40% es el de la ejecución que aparece en el vídeo.
 
 Score conseguido en foto:
-(foto)
+<img width="604" height="322" alt="image" src="https://github.com/user-attachments/assets/dd56f0d6-0584-4f2c-a7b0-0f357c1fb5ae" />
 
 Enlace al vídeo: https://youtu.be/DXB9dX9a7AA
