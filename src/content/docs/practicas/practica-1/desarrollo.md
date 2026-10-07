@@ -1,6 +1,6 @@
 ---
 title: Desarrollo
-description: Planteamiento, algoritmo y código de la práctica 1.
+description: Planteamiento, lógica, decisiones, estados y problemas encontrados.
 sidebar:
   order: 2
 ---

@@ -1,6 +1,6 @@
 ---
 title: Resumen
-description: Objetivo y enunciado de la práctica 1.
+description: Objetivo y enunciado.
 sidebar:
   order: 1
 ---
