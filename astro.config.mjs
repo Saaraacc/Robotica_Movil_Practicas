@@ -32,7 +32,7 @@ export default defineConfig({
         //  3. Añade su tarjeta en src/content/docs/index.mdx
         // ------------------------------------------------------------------
         {
-          label: 'Práctica 1 · Aspirador básico',
+          label: 'Práctica 1 · Basic Vacuum Cleaner',
           collapsed: true,
           autogenerate: { directory: 'practicas/practica-1' },
         },
