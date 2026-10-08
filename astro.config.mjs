@@ -37,7 +37,7 @@ export default defineConfig({
           autogenerate: { directory: 'practicas/practica-1' },
         },
         {
-          label: 'Práctica 2',
+          label: 'Práctica 2 · Visual Follow Line',
           collapsed: true,
           autogenerate: { directory: 'practicas/practica-2' },
         },

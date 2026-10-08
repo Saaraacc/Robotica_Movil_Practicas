@@ -1,6 +1,6 @@
 ---
 title: Resumen
-description: Objetivo y enunciado de la práctica 2.
+description: Objetivo y enunciado.
 sidebar:
   order: 1
 ---
@@ -9,17 +9,19 @@ sidebar:
 
 ## Objetivo
 
-Explica en 2-3 líneas qué se pide y por qué es interesante.
+
 
 ## Enunciado
 
-Resume el enunciado con tus palabras y enlaza el original si existe.
+En este apartado podemos comprobar el enunciado de la práctica a realizar:
+
+[Visual Follow Line · Robotics Academy](https://jderobot.github.io/RoboticsAcademy/exercises/AutonomousCars/follow_line/).
+
 
 ## Ficha de la práctica
 
 | | |
 | --- | --- |
-| Práctica | 2 · Práctica 2 |
-| Fecha de entrega | dd/mm/aaaa |
+| Práctica | P2 · Visual Follow Line |
+| Fecha de entrega | 16/10/2026 |
 | Lenguaje | Python |
-| Repositorio | [Ver código](https://github.com/TU-USUARIO/TU-REPOSITORIO) |
