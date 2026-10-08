@@ -25,5 +25,3 @@ En este apartado podemos comprobar el enunciado de la práctica a realizar:
 | Práctica | P2 · Visual Follow Line |
 | Fecha de entrega | 16/10/2026 |
 | Lenguaje | Python |
-| | |
-| --- | --- |
