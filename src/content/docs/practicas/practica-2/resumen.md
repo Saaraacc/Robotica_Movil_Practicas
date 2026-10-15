@@ -9,7 +9,7 @@ sidebar:
 
 ## Objetivo
 
-El objetivo de esta práctica es programar un coche de Fórmula 1 para que recorra un circuito de carreras siguiendo la línea roja pintada en el centro de la carretera. El coche solo tiene una cámara frontal por lo que toda la información que tiene para conducir es lo que se ve en cada imagen, no sabe en qué punto del circuito está ni qué curvas le quedan por delante.
+El objetivo de esta práctica es programar un coche de Fórmula 1 para que recorra un circuito de carreras siguiendo la línea roja pintada en el centro de la carretera. El coche solo tiene una cámara frontal por lo que toda la información que tiene para conducir es lo que ve en cada imagen, no sabe en qué punto del circuito está ni qué curvas le quedan por delante.
 
 Para conseguirlo detectamos la línea en la imagen mediante un filtro de color y diseñamos un controlador PID para que corrija la dirección del coche según lo desviado que esté de la línea. Observaremos el resultado en el simulador de Unibotics donde se completará la vuelta en diferentes circuitos sin salirse y manteniéndose sobre la línea, sin oscilar y en el menor tiempo posible. 
 
