@@ -51,9 +51,8 @@ Aquí el coche empieza girado y sin ver la línea en las franjas. Gira hacia el 
 
 En este otro vídeo mostramos como sin ver nada de rojo girará por defecto hacia la izquierda.
 
-[GiroIzqDefecto.webm](https://github.com/user-attachments/assets/a1c16084-3ffe-42e8-bde2-92a16367894c)
-
+<video controls width="100%" src="https://github.com/user-attachments/assets/a1c16084-3ffe-42e8-bde2-92a16367894c"></video>
 
 Por último en este otro muestro la limitación, en caso de estar girado hacia la izquierda, sin ver nada de rojo, al girar por defecto a la izquierda recorrerá el circuito al contrario.
 
-[SentidoContrario.webm](https://github.com/user-attachments/assets/8fef0289-8a4d-4e9d-925b-dd4f8ffeedc8)
+<video controls width="100%" src="https://github.com/user-attachments/assets/8fef0289-8a4d-4e9d-925b-dd4f8ffeedc8"></video>
