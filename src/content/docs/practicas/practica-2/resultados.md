@@ -21,7 +21,7 @@ Estos son los valores finales utilizados en el controlador y velocidad para todo
 
 El circuito simple consiguió realizarse en 66,56 segundos.
 
-videooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/917b76ca-2080-42aa-9e99-0ca5c8314d07"></video>
 
 ### Otros circuitos
 
