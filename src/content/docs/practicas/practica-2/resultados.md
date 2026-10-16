@@ -47,8 +47,7 @@ videoooooooo
 
 Aquí el coche empieza girado y sin ver la línea en las franjas. Gira hacia el lado donde ve algo de rojo, se endereza y continúa el circuito en el sentido correcto.
 
-[GiroViendoRojo.webm](https://github.com/user-attachments/assets/83314ac8-25d7-4b5e-8b23-4ca297d8c132)
-
+<video controls width="100%" src="https://github.com/user-attachments/assets/83314ac8-25d7-4b5e-8b23-4ca297d8c132"></video>
 
 En este otro vídeo mostramos como sin ver nada de rojo girará por defecto hacia la izquierda.
 
