@@ -7,7 +7,7 @@ sidebar:
 
 ## Logros
 
-En esta práctica he conseguido programar un coche de Fórmula 1 que recorre el circuito siguiendo la línea roja usando solo la imágen de su cámara. El coche detexta la línea con un filtro de color en HSV, corrige su dirección con un controlador PID, adapta la velocidad según vea una recta o una curva y si pierde la línea gira hasta volver a encontrarla.
+En esta práctica he conseguido programar un coche de Fórmula 1 que recorre el circuito siguiendo la línea roja usando solo la imagen de su cámara. El coche detecta la línea con un filtro de color en HSV, corrige su dirección con un controlador PID, adapta la velocidad según vea una recta o una curva y si pierde la línea gira hasta volver a encontrarla.
 
 En el circuito simple se completa la vuelta en 66,56 segundos, dentro del rango propuesto en clase y también se consigue recorrer el resto de circuitos.
 

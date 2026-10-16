@@ -9,7 +9,7 @@ sidebar:
 
 ## Análisis
 
-El coche completa de forma correcta la ejecución de todos los cicuitos. Siguiendo la línea y realizando las menos oscilaciones posibles.
+El coche completa de forma correcta la ejecución de todos los circuitos. Siguiendo la línea y realizando las menos oscilaciones posibles.
 
 Estos son los valores finales utilizados en el controlador y velocidad para todos los circuitos:
 
@@ -49,7 +49,7 @@ Aquí el coche empieza girado y sin ver la línea en las franjas. Gira hacia el 
 
 <video controls width="100%" src="https://github.com/user-attachments/assets/83314ac8-25d7-4b5e-8b23-4ca297d8c132"></video>
 
-En este otro vídeo mostramos como sin ver nada de rojo girará por defecto hacia la izquierda.
+En este otro vídeo mostramos cómo sin ver nada de rojo girará por defecto hacia la izquierda.
 
 <video controls width="100%" src="https://github.com/user-attachments/assets/a1c16084-3ffe-42e8-bde2-92a16367894c"></video>
 
