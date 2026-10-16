@@ -33,15 +33,15 @@ El circuito simple consiguió realizarse en 66,56 segundos.
 
 #### Montmeló
 
-videooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/80705c40-24f6-4fec-87a8-01806c940fce"></video>
 
 #### Montreal
 
-viedeooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/96fbe4a4-f4bb-4665-877d-3471b224f5f8"></video>
 
 #### Nürburgring
 
-videoooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/f9353b62-ce0e-461b-99a5-145452bf69d6"></video>
 
 ### Búsqueda de la línea
 
