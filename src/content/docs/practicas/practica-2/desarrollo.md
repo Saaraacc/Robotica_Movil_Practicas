@@ -30,7 +30,8 @@ La imagen de la cámara llega en BGR y se pasa a HSV que separa el color (H), la
 
 Utilizo dos rangos para controlar todos los tonos de rojo, de 0 a 10 y de 170 a 179 luego los junto en una máscara y utilizo una saturación y brillo mínimos para descartar píxeles grises u oscuros.
 
-FOTOOOO
+<img width="972" height="859" alt="image" src="https://github.com/user-attachments/assets/bb3bbee3-4aca-4102-80d2-5119ceab013f" />
+
 *Círculo del tono (H) en OpenCV. El rojo queda en los dos extremos, por eso se usan dos rangos: 0–10 y 170–179.*
 
 En cuanto a la máscara solo miro dos franjas horizontales:
@@ -62,7 +63,8 @@ Mis valores finales fueron:
 | --- | --- | --- |
 | 0,006 | 0,0001 | 0,02 |
 
-FOTOOOOO
+<img width="1103" height="522" alt="image" src="https://github.com/user-attachments/assets/d105b896-3945-43ef-925a-71855cc7e88d" />
+
 *Bucle de control. El error se calcula a partir de la imagen, pasa por los tres términos del PID y su suma da el giro del coche, que al moverse genera una nueva imagen.*
 
 ### Control de velocidad
