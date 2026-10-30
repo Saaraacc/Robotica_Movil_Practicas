@@ -34,6 +34,7 @@ La atracción apunta hacia el subobjetivo y su tamaño es siempre el mismo, est�
 
 El subobjetivo se da por alcanzado cuando el coche está a menos de 2 metros de él, o cuando ya lo ha dejado a un lado o detrás sin llegar a pisarlo. En ese momento pasa al siguiente.
 
+<img width="919" height="962" alt="FuerzaAtractiva" src="https://github.com/user-attachments/assets/d772aa54-a2ce-47c7-bcad-2fdbb9eb4d84" />
 
 ### Fuerza resultante
 
@@ -53,6 +54,7 @@ Calculada la resultante hay que convertirla a la velocidad lineal (V) y a la vel
 * Al sumar los 180 rayos aunque cada uno empujaba poco el total de la repulsión era mucho mayor que la atracción, así que hice la media entre todos los rayos válidos.
 * Frenaba en las curvas sin motivo, porque el láser veía la valla exterior justo delante y el coche frenaba aunque no hubiera ningún obstáculo. Entonces hice que la velocidad dependa solo del peligro delante ignorando el empuje de las vallas.
 * Con un obstáculo justo en el centro, si había un coche en plena trayectoria y el subobjetivo detrás, el obstáculo no empujaba hacia ningún lado y el coche iba recto hasta chocar. En ese caso, el coche elige un lado (hacia el que ya apuntaba la resultante, aunque fuera muy poco) y lo mantiene hasta pasar el obstáculo.
+
 
 
 
