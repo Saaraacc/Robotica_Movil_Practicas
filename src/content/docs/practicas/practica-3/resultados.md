@@ -21,16 +21,16 @@ Los valores finales que he utilizado son:
 
 El coche recorre el circuito completo con los obstáculos en su posición original, esquivándolos sin tocarlos.
 
-videooooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/c259e810-69ad-4bd8-bb3b-af10f82be152"></video>
 
 ### Modificando los obstáculos
 
 Para comprobar que el sistema no solo funciona en el circuito original, se cambian los coches de sitio, colocando algunos en situaciones más difíciles, como justo en la trayectoria del coche.
 
-videoooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/73dcd67a-0edd-4a2a-a5be-8ea05e1b9714"></video>
 
 ### Circuito modificado
 
 Con los obstáculos en sus nuevas posiciones, el coche vuelve a completar la vuelta sin chocar, incluido el caso del obstáculo en el centro, donde elige un lado y lo esquiva.
 
-videoooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/dd939125-a5ea-401a-857a-41ef5d112a3e"></video>
