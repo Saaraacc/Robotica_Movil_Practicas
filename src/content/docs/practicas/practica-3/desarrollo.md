@@ -55,8 +55,7 @@ Calculada la resultante hay que convertirla a la velocidad lineal (V) y a la vel
 * Frenaba en las curvas sin motivo, porque el láser veía la valla exterior justo delante y el coche frenaba aunque no hubiera ningún obstáculo. Entonces hice que la velocidad dependa solo del peligro delante ignorando el empuje de las vallas.
 * Con un obstáculo justo en el centro, si había un coche en plena trayectoria y el subobjetivo detrás, el obstáculo no empujaba hacia ningún lado y el coche iba recto hasta chocar. En ese caso, el coche elige un lado (hacia el que ya apuntaba la resultante, aunque fuera muy poco) y lo mantiene hasta pasar el obstáculo.
 
-
-
+<img width="919" height="962" alt="DifSol" src="https://github.com/user-attachments/assets/77f3c46e-98a9-48f9-b2d0-42729fb5f470" />
 
 * Con un subobjetivo escondido detrás del obstáculo, al esquivarlo por el lado contrario, el coche nunca llegaba a estar cerca del subobjetivo y la atracción lo volvía a meter contra el obstáculo. Entonces lo doy por alcanzado también cuando el coche ya lo ha dejado al lado o detrás.
 
