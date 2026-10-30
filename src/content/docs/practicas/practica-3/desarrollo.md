@@ -70,3 +70,5 @@ Calculada la resultante hay que convertirla a la velocidad lineal (V) y a la vel
 En cuanto a alguna limitación, debido a la miopía del VFF, el coche solo reacciona a lo que ve en el momento y no planifica por dónde hay más hueco para pasar. Por eso, en algún obstáculo pasa por el lado más estrecho.
 
 <img width="918" height="923" alt="image" src="https://github.com/user-attachments/assets/1ee3da7e-f980-4e9a-bf21-3ce0b46175dd" />
+
+*El coche esquiva el obstáculo por el lado más estrecho, ya que el VFF solo reacciona a lo que detecta en ese momento.*
