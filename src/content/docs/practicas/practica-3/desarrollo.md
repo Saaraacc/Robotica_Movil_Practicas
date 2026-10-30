@@ -15,6 +15,8 @@ Todas las fuerzas se calculan desde el punto de vista del coche: 'x' hacia delan
 
 <img width="919" height="962" alt="Planteamiento" src="https://github.com/user-attachments/assets/a72f1bea-4b72-4377-8698-a8b010cec0a8" />
 
+*El coche se acerca a un obstáculo situado a su derecha. La atracción (verde) apunta hacia el subobjetivo, la repulsión (roja) lo aparta del obstáculo y la resultante (negra) lo lleva hacia la izquierda para esquivarlo.*
+
 ## Lógica y Decisiones
 
 ### Fuerza repulsiva
@@ -26,6 +28,8 @@ El láser da 180 medidas, una por grado, desde la derecha del coche hasta su izq
 
 <img width="919" height="962" alt="FuerzaRepulsiva" src="https://github.com/user-attachments/assets/786957e1-e460-46a6-bcf4-c6a8b8e0cc12" />
 
+*Obstáculo delante a la izquierda. Los rayos del láser que chocan con él generan una repulsión (roja) hacia atrás y a la derecha. La resultante (negra) aparta el coche hacia la derecha y, al detectar peligro, la velocidad baja al mínimo.*
+
 ### Fuerza atractiva
 
 El subobjetivo viene en coordenadas del circuito, pero las fuerzas se calculan desde el punto de vista del coche. Por ello, primero restamos la posición del coche a la del subobjetivo y después se gira según hacia dónde está mirando el coche. Así averiguamos si el subobjetivo está delante, detrás o a un lado.
@@ -35,6 +39,8 @@ La atracción apunta hacia el subobjetivo y su tamaño es siempre el mismo, est�
 El subobjetivo se da por alcanzado cuando el coche está a menos de 2 metros de él, o cuando ya lo ha dejado a un lado o detrás sin llegar a pisarlo. En ese momento pasa al siguiente.
 
 <img width="919" height="962" alt="FuerzaAtractiva" src="https://github.com/user-attachments/assets/d772aa54-a2ce-47c7-bcad-2fdbb9eb4d84" />
+
+*Sin obstáculos cerca, la atracción (verde) apunta al subobjetivo (cruz amarilla) y la resultante (negra) casi coincide con ella.*
 
 ### Fuerza resultante
 
@@ -56,6 +62,8 @@ Calculada la resultante hay que convertirla a la velocidad lineal (V) y a la vel
 * Con un obstáculo justo en el centro, si había un coche en plena trayectoria y el subobjetivo detrás, el obstáculo no empujaba hacia ningún lado y el coche iba recto hasta chocar. En ese caso, el coche elige un lado (hacia el que ya apuntaba la resultante, aunque fuera muy poco) y lo mantiene hasta pasar el obstáculo.
 
 <img width="919" height="962" alt="DifSol" src="https://github.com/user-attachments/assets/77f3c46e-98a9-48f9-b2d0-42729fb5f470" />
+
+*Obstáculo justo en la trayectoria, con el subobjetivo detrás. Como ninguna fuerza empuja hacia un lado, el coche elige uno (izquierda) y la resultante (negra) lo aparta del obstáculo.*
 
 * Con un subobjetivo escondido detrás del obstáculo, al esquivarlo por el lado contrario, el coche nunca llegaba a estar cerca del subobjetivo y la atracción lo volvía a meter contra el obstáculo. Entonces lo doy por alcanzado también cuando el coche ya lo ha dejado al lado o detrás.
 
