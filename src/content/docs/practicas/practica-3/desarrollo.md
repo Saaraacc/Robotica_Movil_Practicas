@@ -13,7 +13,7 @@ El VFF se basa en una idea en la que el coche se mueve como si sobre él actuara
 
 Todas las fuerzas se calculan desde el punto de vista del coche: 'x' hacia delante e 'y' hacia la izquierda. En la interfaz se dibujan con la misma escala, verde para la atracción, roja para la repulsión y negra para la resultante.
 
-fotoooooooo
+<img width="919" height="962" alt="Planteamiento" src="https://github.com/user-attachments/assets/a72f1bea-4b72-4377-8698-a8b010cec0a8" />
 
 ## Lógica y Decisiones
 
@@ -24,7 +24,7 @@ El láser da 180 medidas, una por grado, desde la derecha del coche hasta su izq
 * Los rayos laterales pesan menos. Un obstáculo justo delante empuja con todo su peso y uno al lado solo con un peso del 30%. Lo peligroso es lo que el coche tiene delante, porque va hacia ello. Lo de los lados, como las vallas, no le molesta mientras vaya recto y si pesara mucho el coche se pondría a oscilar de una valla a otra.
 * Se hace la media de todos los rayos. Se suman los empujes de todos los rayos y se divide entre el número de medidas válidas. Así la fuerza no depende de cuántos rayos tenga el láser, sino de lo cerca que estén los obstáculos.
 
-fotoooooooo
+<img width="919" height="962" alt="FuerzaRepulsiva" src="https://github.com/user-attachments/assets/786957e1-e460-46a6-bcf4-c6a8b8e0cc12" />
 
 ### Fuerza atractiva
 
@@ -34,7 +34,6 @@ La atracción apunta hacia el subobjetivo y su tamaño es siempre el mismo, est�
 
 El subobjetivo se da por alcanzado cuando el coche está a menos de 2 metros de él, o cuando ya lo ha dejado a un lado o detrás sin llegar a pisarlo. En ese momento pasa al siguiente.
 
-fotoooooo
 
 ### Fuerza resultante
 
@@ -55,7 +54,7 @@ Calculada la resultante hay que convertirla a la velocidad lineal (V) y a la vel
 * Frenaba en las curvas sin motivo, porque el láser veía la valla exterior justo delante y el coche frenaba aunque no hubiera ningún obstáculo. Entonces hice que la velocidad dependa solo del peligro delante ignorando el empuje de las vallas.
 * Con un obstáculo justo en el centro, si había un coche en plena trayectoria y el subobjetivo detrás, el obstáculo no empujaba hacia ningún lado y el coche iba recto hasta chocar. En ese caso, el coche elige un lado (hacia el que ya apuntaba la resultante, aunque fuera muy poco) y lo mantiene hasta pasar el obstáculo.
 
-fotoooooooooo
+
 
 * Con un subobjetivo escondido detrás del obstáculo, al esquivarlo por el lado contrario, el coche nunca llegaba a estar cerca del subobjetivo y la atracción lo volvía a meter contra el obstáculo. Entonces lo doy por alcanzado también cuando el coche ya lo ha dejado al lado o detrás.
 
