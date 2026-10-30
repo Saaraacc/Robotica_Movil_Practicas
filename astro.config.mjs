@@ -42,7 +42,7 @@ export default defineConfig({
           autogenerate: { directory: 'practicas/practica-2' },
         },
         {
-          label: 'Práctica 3',
+          label: 'Práctica 3 · Local Navigation With VFF',
           collapsed: true,
           autogenerate: { directory: 'practicas/practica-3' },
         },
