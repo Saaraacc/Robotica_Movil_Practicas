@@ -23,22 +23,22 @@ Se considera que el taxi ha llegado al cliente cuando está a menos de 3,75 m de
 
 Al elegir un destino lejano, la onda crece desde el destino hasta el taxi, se dibuja el camino sugerido y el coche lo recorre hasta recoger al cliente.
 
-videooooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/d9ca1c0e-c3aa-4dc0-8e96-2c43d02b5a4c"></video>
 
 ### Varias carreras seguidas
 
 Al llegar, el taxi se detiene y espera. Cada nuevo destino se planifica y se recorre sin reiniciar el programa.
 
-videooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/11b9dc91-7df7-4ecc-9ac2-3168d6445555"></video>
 
 ### Cambio de destino a mitad de camino
 
 Si se elige otro destino mientras el taxi va hacia el primero, se detiene, replanifica y se dirige al nuevo.
 
-videooooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/c52db731-aa49-4e6b-a29a-084682cf00fd"></video>
 
 ### Destino en un edificio
 
 Al elegir un punto sobre un edificio, se muestra un aviso y el taxi no se mueve.
 
-videooooooo
+<video controls width="100%" src="https://github.com/user-attachments/assets/1ed79269-17a2-4a04-a850-f7d16708ed90"></video>
