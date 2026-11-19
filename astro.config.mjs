@@ -46,6 +46,11 @@ export default defineConfig({
           collapsed: true,
           autogenerate: { directory: 'practicas/practica-3' },
         },
+        {
+          label: 'Práctica 4 · Global Navigation using TeleTaxi',
+          collapsed: true,
+          autogenerate: { directory: 'practicas/practica-4' },
+        },
         { label: 'Bibliografía', slug: 'bibliografia' },
       ],
     }),
