@@ -13,11 +13,11 @@ El taxi llega siempre al destino por el centro de las calles, sin rozar ninguna 
 
 Los parámetros finales que he utilizado son:
 
-| Penalización máx. | Radio de seguridad | Margen de onda | Radio de mirada | Distancia mín. a pared | V máx. | W máx. | Ganancia K_W | Distancia de llegada |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 20 | 6 celdas (7,5 m) | 30 | 6 celdas (7,5 m) | 2,5 celdas (3 m) | 10 m/s | 3,5 rad/s | 1,5 | 3,75 m |
+| Penalización máx. | Radio de seguridad | Margen de onda | Radio de mirada | Distancia mín. a pared | V máx. | W máx. | Ganancia K_W |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 20 | 6 celdas (7,5 m) | 30 | 6 celdas (7,5 m) | 2,5 celdas (3 m) | 10 m/s | 3,5 rad/s | 1,5 |
 
-El subcampo de penalización tarda unos 0,8 s en calcularse y solo se calcula una vez. El de propagación, sin la animación, tarda entre 0,04 y 0,3 s según la distancia al destino.
+Se considera que el taxi ha llegado al cliente cuando está a menos de 3,75 m del destino. El subcampo de penalización tarda unos 0,8 s en calcularse y solo se calcula una vez. El de propagación, sin la animación, tarda entre 0,04 y 0,3 s según la distancia al destino.
 
 ### Carrera larga
 
