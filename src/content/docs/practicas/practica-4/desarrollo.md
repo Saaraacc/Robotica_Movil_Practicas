@@ -13,7 +13,7 @@ La idea del GPP (Gradient Path Planning) es dar a cada celda de un mapa un valor
 
 El programa se divide en dos partes. En la parte secuencial se realiza la planificación: cada vez que el usuario elige un destino, se calcula un nuevo campo hacia él, una sola vez por destino. Después, en la parte iterativa se realiza la navegación: en cada iteración, el coche lee su posición del GPS y pide consejo al campo para que le ayude a decidir hacia dónde ir. No sigue ninguna ruta guardada, así que si se desvía, el siguiente consejo se realiza desde su nueva posición.
 
-fotoooooooooooo
+<img width="715" height="590" alt="planteamiento_2mapas" src="https://github.com/user-attachments/assets/9b2d5621-2801-4f5d-b524-8dd75fe26390" />
 
 *Arriba a la izquierda, el mapa con el taxi (rojo) y el destino (X azul). A la derecha, el campo calculado, con el camino sugerido en verde y el destino marcado con una cruz blanca.*
 
@@ -29,7 +29,7 @@ Además, he tomado dos decisiones:
 * Parar la onda al llegar al taxi: no hace falta calcular toda la ciudad. Cuando la onda alcanza al taxi, se expande un margen más y se detiene. El margen permite que el coche siga teniendo campo alrededor aunque se desvíe un poco.
 * Animar la onda: cada 400 celdas se repinta el campo con una pequeña pausa, para ver cómo crece desde el destino. Es solo visual.
 
-videoooo
+[videoOnda.webm](https://github.com/user-attachments/assets/313649ff-b0a1-4f5e-9fac-e44ca443d6c2)
 
 *La onda de propagación creciendo desde el destino hasta alcanzar al taxi.*
 
@@ -43,7 +43,7 @@ Para saber esa distancia he usado otra onda, igual que la de propagación, pero 
 
 Como la penalización solo depende del mapa, que no cambia, se calcula una única vez al arrancar el programa y se reutiliza para todos los destinos.
 
-fotoooooooooooooo
+<img width="765" height="960" alt="SubcampoPenalizacion" src="https://github.com/user-attachments/assets/e7019842-b53e-48c2-94e5-97eb8e009ae2" />
 
 *Subcampo de penalización: los bordes de las calles, cerca de las paredes, en tonos claros y el centro en oscuro.*
 
