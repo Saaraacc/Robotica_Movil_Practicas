@@ -29,7 +29,7 @@ Además, he tomado dos decisiones:
 * Parar la onda al llegar al taxi: no hace falta calcular toda la ciudad. Cuando la onda alcanza al taxi, se expande un margen más y se detiene. El margen permite que el coche siga teniendo campo alrededor aunque se desvíe un poco.
 * Animar la onda: cada 400 celdas se repinta el campo con una pequeña pausa, para ver cómo crece desde el destino. Es solo visual.
 
-[videoOnda.webm](https://github.com/user-attachments/assets/313649ff-b0a1-4f5e-9fac-e44ca443d6c2)
+<video controls width="100%" src="https://github.com/user-attachments/assets/313649ff-b0a1-4f5e-9fac-e44ca443d6c2"></video>
 
 *La onda de propagación creciendo desde el destino hasta alcanzar al taxi.*
 
@@ -44,6 +44,8 @@ Para saber esa distancia he usado otra onda, igual que la de propagación, pero 
 Como la penalización solo depende del mapa, que no cambia, se calcula una única vez al arrancar el programa y se reutiliza para todos los destinos.
 
 <img width="765" height="960" alt="SubcampoPenalizacion" src="https://github.com/user-attachments/assets/e7019842-b53e-48c2-94e5-97eb8e009ae2" />
+
+<video controls width="100%" src="https://github.com/user-attachments/assets/cbcf5661-768b-4a8d-9c91-3db8a3828c5b"></video>
 
 *Subcampo de penalización: los bordes de las calles, cerca de las paredes, en tonos claros y el centro en oscuro.*
 
