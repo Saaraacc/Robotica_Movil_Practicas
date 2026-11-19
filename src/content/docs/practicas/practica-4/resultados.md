@@ -9,28 +9,3 @@ sidebar:
 
 ## Análisis
 
-El coche completa la vuelta al circuito esquivando todos los obstáculos sin chocar con ninguno, tanto con los coches en su posición original como cambiándolos de sitio.
-
-Los valores finales que he utilizado son:
-
-| Peso atracción (α) | Peso repulsión (β) | Distancia límite | Peso laterales | Memoria local | V máxima | V mínima | Giro máximo |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 3 | 3,5 m | 0,3 | 0,85 | 3 m/s | 0,5 m/s | 1,5 rad/s |
-
-### Circuito original
-
-El coche recorre el circuito completo con los obstáculos en su posición original, esquivándolos sin tocarlos.
-
-<video controls width="100%" src="https://github.com/user-attachments/assets/c259e810-69ad-4bd8-bb3b-af10f82be152"></video>
-
-### Modificando los obstáculos
-
-Para comprobar que el sistema no solo funciona en el circuito original, se cambian los coches de sitio, colocando algunos en situaciones más difíciles, como justo en la trayectoria del coche.
-
-<video controls width="100%" src="https://github.com/user-attachments/assets/73dcd67a-0edd-4a2a-a5be-8ea05e1b9714"></video>
-
-### Circuito modificado
-
-Con los obstáculos en sus nuevas posiciones, el coche vuelve a completar la vuelta sin chocar, incluido el caso del obstáculo en el centro, donde elige un lado y lo esquiva.
-
-<video controls width="100%" src="https://github.com/user-attachments/assets/dd939125-a5ea-401a-857a-41ef5d112a3e"></video>
